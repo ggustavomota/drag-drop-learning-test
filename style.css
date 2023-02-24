@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    padding-top: 30px;
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+.item{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px dashed rgb(172, 172, 172);
+    cursor: grab;
+}
+
+.item:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+#column{
+    padding-top: 30px;
+    background-color: rgb(76, 0, 255);
+    width: 450px;
+    height: 270px;
+    border-radius: 6px;
+    margin-left: 210px;
+}
+
+#putitens{
+    padding-top: 30px;
+    position: absolute;
+    background-color: rgb(94, 255, 0);
+    height: 270px;
+    width: 500px;
+    margin-left: 710px;
+    margin-top: -300px;
+    border-radius: 6px;
+}
